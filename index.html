@@ -18,20 +18,20 @@
 
 </head>
 
-<body class=" ">
+<body class="body">
     <div class="container min-h-screen px-4">
-        <nav class="sticky top-0 grid grid-cols-2  xl:grid-cols-3  items-center gap-2 bg-gray-50 p-4">
+        <nav id="nav" class="sticky top-0 grid grid-cols-2  xl:grid-cols-3  items-center gap-2 bg-gray-50 p-4">
             <!-- opening nav -->
-            <a href="#" class="flex gap-4 items-center">
+            <a href="#nav" class="flex gap-4 items-center">
                 <img src="./icons/icon.png" alt="icon..." class="w-10 h-10 rounded-full">
                 <h1 class=" font-bold">Coding<br> Community</h1>
             </a>
             <ul
                 class="flex gap-5 bg-gray-200 justify-center items-center rounded-3xl px-3 py-3 text-gray-500 text-sm font-medium hidden  xl:flex">
-                <li class=" hover:text-black  hover:bg-gray-100 rounded-full px-3"><a href="#">Intro</a></li>
-                <li class=" hover:text-black  hover:bg-gray-100 rounded-full px-3"><a href="#">Pricing</a></li>
-                <li class=" hover:text-black  hover:bg-gray-100 rounded-full px-3"><a href="#">Features</a></li>
-                <li class=" hover:text-black  hover:bg-gray-100 rounded-full px-3"><a href="#">Testimonials</a></li>
+                <li class=" hover:text-black  hover:bg-gray-100 rounded-full px-3"><a href="#intro">Intro</a></li>
+                <li class=" hover:text-black  hover:bg-gray-100 rounded-full px-3"><a href="#pricing">Pricing</a></li>
+                <li class=" hover:text-black  hover:bg-gray-100 rounded-full px-3"><a href="#features">Features</a></li>
+                <li class=" hover:text-black  hover:bg-gray-100 rounded-full px-3"><a href="#Testimonials">Testimonials</a></li>
             </ul>
 
             <div class="">
@@ -42,7 +42,7 @@
         </nav>
         <!-- closing nav -->
 
-        <div class="p-8"> <!-- this is body part | opening body  -->
+        <div class="p-8" id="intro"> <!-- this is body part | opening body  -->
 
             <div class="grid grid-cols-1   xl:grid-cols-2 mt-12 gap-2">
                 <div class="flex flex-col text-center justify-center ">
@@ -222,7 +222,7 @@
                 
 
             <!-- EVERYTHING YOU NEED IN ONE COMMUNITY  -->
-            <div>
+            <div id="features">
                 <div class="flex justify-center items-center mt-8 p-5">
                     <div class="w-[55%] leading-relaxed">
                         <p class="text-xl sm:text-2xl md:text-3xl xl:text-5xl text-center font-bold font-sans">EVERYTHING YOU NEED IN ONE COMMUNITY</p>
@@ -273,7 +273,7 @@
             </div>
             <!-- logo's close -->
 
-            <div>
+            <div id="Testimonials">
 
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 mx-auto p-5">
